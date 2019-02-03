@@ -28,9 +28,9 @@ snacks = ["crackers", "gouda", "cheddar", "thyme"]
 
 def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-    cheese.find do |cheese|
-      p cheese_types.include?(cheese) 
-  end
+    cheese.find do |cheese|                           #looks through the argument array and returns a FIRST true value for..
+      p cheese_types.include?(cheese)                 #asking if cheese_types array includes an object from the argument array
+  end                                                 #if so will return said object.
        
 end
 find_the_cheese(snacks)
