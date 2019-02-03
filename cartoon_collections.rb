@@ -28,8 +28,10 @@ snacks = ["crackers", "gouda", "thyme"]
 
 def find_the_cheese(string_array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-   string_array.collect do |string|
-      if string.include?(cheese_types)
+   string_array.find do |string|
+     p string.include?(cheese_types)
+   end
+     
         
    end
        
