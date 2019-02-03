@@ -31,9 +31,6 @@ def find_the_cheese(string_array)
    string_array.find do |string|
      p string.include?(cheese_types)
    end
-     
-        
-   end
        
 end
 find_the_cheese(snacks)
