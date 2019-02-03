@@ -24,7 +24,9 @@ def long_planeteer_calls(array)
 end
 #long_planeteer_calls(planeteer_calls)
 
+snacks = ["crackers", "gouda", "thyme"]
 
 def find_the_cheese(string_array)
+  string_array.inlude?
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
