@@ -26,10 +26,10 @@ end
 
 snacks = ["crackers", "gouda", "thyme"]
 
-def find_the_cheese(string_array)
+def find_the_cheese(cheese)
   cheese_types = ["cheddar", "gouda", "camembert"]
-   cheese_types.find do |string|
-     p string.include?(string_array)
+   cheese.find do |string|
+     p cheese_types.include?(string_array)
    end
        
 end
