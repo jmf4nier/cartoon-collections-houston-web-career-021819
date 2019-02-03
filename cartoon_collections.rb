@@ -27,7 +27,7 @@ end
 snacks = ["crackers", "gouda", "thyme"]
 
 def find_the_cheese(string_array)
-  cheese_types = ["cheddar", "gouda", "camembert"]
-   string_array.include?("g")
+  #cheese_types = ["cheddar", "gouda", "camembert"]
+   string_array.include?("gouda")
 end
 find_the_cheese(snacks)
