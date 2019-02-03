@@ -28,6 +28,6 @@ snacks = ["crackers", "gouda", "thyme"]
 
 def find_the_cheese(string_array)
   cheese_types = ["cheddar", "gouda", "camembert"]
-  string_array.inlude? do |cheese|
-    c
+  p string_array.inlude?(cheese_types)
 end
+find_the_cheese(snacks)
