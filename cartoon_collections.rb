@@ -25,6 +25,6 @@ end
 #long_planeteer_calls(planeteer_calls)
 
 
-def find_the_cheese
+def find_the_cheese(string_array)
   cheese_types = ["cheddar", "gouda", "camembert"]
 end
